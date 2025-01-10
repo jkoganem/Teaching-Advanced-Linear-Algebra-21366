@@ -1,1 +1,1 @@
-# Teaching-Advanced-Linear-Algebra-21366
+# 21-366 Topics in Applied Mathematics: Linear Algebra with Applications
