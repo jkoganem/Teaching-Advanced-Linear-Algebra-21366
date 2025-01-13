@@ -160,7 +160,7 @@ This repository uses **two different licenses**:
 
 - **Code** in this repository is licensed under the [MIT License](LICENSE). This means you’re free to reuse and modify the code as long as you provide attribution and include the same license notice in your copies or forks.
 
-- **Documentation and teaching materials** (including PDFs, lecture slides, worksheets) in the [`docs/`](docs) directory are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE-docs.md).  
+- **Documentation and teaching materials** in the [`notes/`](notes) directory are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE-docs.md).  
   - You may share and adapt these materials for **non-commercial** purposes, but you must give appropriate credit and link back to this repository.  
   - Commercial use is **not** permitted without explicit permission.
 
