@@ -1,0 +1,68 @@
+\documentclass[reqno]{amsart}
+
+\usepackage{amssymb,amsfonts,amsmath,amsthm}
+\usepackage{hyperref}
+\usepackage[left=.75in, right=.75in, top=.75in, bottom=.75in]{geometry}
+
+% You can define custom commands and environments to suit your needs
+% Text editors such as VS Code also support keyboard shortcuts, see https://code.visualstudio.com/docs/getstarted/keybindings
+\newcommand{\R}{\mathbb{R}}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{exmp}[thm]{Example}
+\newtheorem{rem}[thm]{Remark}
+
+
+\title{Paper title}
+
+\author{Author 1}
+\address{
+Carnegie Mellon University\\
+Pittsburgh, PA 15213, USA
+}
+\email[Author 1]{author1@andrew.cmu.edu}
+
+\author{Author 2}
+\address{
+Carnegie Mellon University\\
+Pittsburgh, PA 15213, USA
+}
+\email[Author 2]{author2@andrew.cmu.edu}
+
+\keywords{Linear algebra}
+
+
+\begin{document}
+
+\begin{abstract}
+Here is an abstract.
+\end{abstract}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+\subsection{Main problem}
+\subsection{Previous Work}
+\subsection{Main results and discussion}
+\subsection{Notation and outline}
+
+\section{Let's prove some stuff}
+
+\section{Applications}
+
+\appendix
+\section{Appendix for technical details}
+
+\section*{Acknowledgements}
+
+\nocite{*}
+\bibliographystyle{abbrv}
+\bibliography{bib.bib}
+
+\end{document}
